@@ -28,3 +28,6 @@ n<-200
 samp<-rt(n,10)
 print(samp)
 plot(samp)
+
+
+l <- as.list(rep(1,n))
