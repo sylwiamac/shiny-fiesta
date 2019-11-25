@@ -3,14 +3,14 @@
 hello <- function() print("Hello World!")
 
 Sys.getlocale()
-Sys.setlocale("LC_MESSAGES", "en_GB.UTF-8") # zmiana j?zyka - sprawdzi?
+Sys.setlocale("LC_MESSAGES", "en_GB.UTF-8") # zmiana jezyka - sprawdzic
 
 # [git] branch x
 # checkout -b x
 # diff
 # add
 # commit (etap)
-# push / pull (wysy?anie/pobieranie z repozytorium)
+# push / pull (wysylanie/pobieranie z repozytorium)
 # remote
 # merge
 
@@ -29,5 +29,14 @@ samp<-rt(n,10)
 print(samp)
 plot(samp)
 
-
+# wydajne listy
 l <- as.list(rep(1,n))
+append(l, 5)
+
+# funkcje zagniezdzone
+# f1 <- function(...) {
+#   f2 <- function(...){}
+# }
+
+# macierze w R sa definiowane jako wektor kolumn, wiec operacje na kolumnach sa wydajniejsze
+# data.table - najszybszy modul tabel danych
