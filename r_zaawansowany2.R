@@ -151,3 +151,5 @@ colnames(dt_iris) # (ale liczby sa, chociaz ich nie ma w podgladzie)
 View(dt_iris)
 dt2_iris <- dt_iris # juz ma 6 zmiennych
 dtf<-as.data.frame(dt_iris)
+
+# dtplyr - nakladka tidyverse na data.table
